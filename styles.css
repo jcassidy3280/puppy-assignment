@@ -1,0 +1,72 @@
+*{
+  padding: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  box-sizing: border-box;
+
+}
+body {
+  background-image: url(Untitled\ design.jpg);
+  color: black;
+  position: absolute;
+     
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    padding: 2.5%;
+    font-family: Arial;
+    font-size: 75px;
+    color: yellow;
+
+}
+img {
+  width: 75%;
+  border: 5px solid navy;
+  padding: 0;
+
+}
+.details{
+  display:flex;
+  width: 75px;
+  align-items: center;
+  margin: 1%;
+  padding: 1%;
+}
+
+#all-content {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  margin: 1%;
+  padding: 1%;
+}
+#all-players-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-family: Arial;
+  border: 10px solid yellow;
+  background-color: gainsboro;
+  width: 30%;
+  
+  
+}
+.single-player-container {
+  margin: 1%;
+  padding: 1%;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-puppy-bowl-team-container {
+  border: 1px solid navy;
+}
+
